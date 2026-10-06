@@ -218,4 +218,5 @@ with st.sidebar:
     st.subheader("Recent Searches")
 
     for q in st.session_state.recent:
+
         st.write(f"• {q}")
